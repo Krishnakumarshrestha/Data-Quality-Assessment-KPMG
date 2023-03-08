@@ -1,0 +1,16 @@
+---
+title: "Internship Submittion"
+author: "Krishna Kumar Shrestha"
+format: html
+editor: visual
+---
+
+# Introduction
+
+```{r}
+library(readxl)
+transactions <- read_excel("KPMG_VI_New_raw_data_update_final.xlsx", 
+    sheet = "Transactions", skip = 1)
+
+
+```
